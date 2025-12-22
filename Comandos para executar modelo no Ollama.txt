@@ -1,0 +1,6 @@
+ollama pull mistral:7b-instruct-q4_K_M
+ollama show mistral:7b-instruct-q4_K_M
+
+ollama create mistral-aml-q4 -f Modelfile
+
+ollama run mistral-aml-q4
